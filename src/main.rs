@@ -1,4 +1,4 @@
-// https://play.rust-lang.org/?version=stable&mode=debug&edition=2018&gist=b7ce05386e388cf30a5cd8b8d33297e0
+// https://play.rust-lang.org/?version=stable&mode=debug&edition=2018&gist=2e1705d582a07f1d59897a21ae2421d6
 
 use std::env;
 use std::io::{self, Write};
