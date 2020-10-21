@@ -1,6 +1,6 @@
 # console-weather
 
-Get the weather by zipcode
+Get the weather by zipcode.
 
 Extra notes & thank you's:
 

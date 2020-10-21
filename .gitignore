@@ -1,1 +1,4 @@
 /target
+
+# The config file that should contain the api key(s) and other config info
+weather-config.json

@@ -25,3 +25,18 @@ fn get_zipcode_from_user() -> String {
 
     zipcode
 }
+
+#[tokio::main]
+async fn get_weather(zipcode: String) -> Result<(), reqwest::Error> {
+    // example get
+    let res = reqwest::get("https://example.com").await?;
+
+    println!("The zipcode is {}", zipcode);
+    println!("Status: {}", res.status());
+
+    let body = res.text().await?;
+
+    println!("Body:\n\n{}", body);
+
+    Ok(())
+}
